@@ -1,2 +1,2 @@
 # ICR
-Hand Written Text Detection
+Hand Written Text Detection using Computer vision
