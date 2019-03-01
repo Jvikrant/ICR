@@ -7,7 +7,7 @@ Created on Mon Apr 30 13:33:11 2018
 
 import os
 from flask import Flask, render_template, request, send_from_directory, url_for
-from werkzeug import secure_filename
+from werkzeug.utils import secure_filename
 from MCST_CV_Handwritten_Text import ExtractText
 
 UPLOAD_FOLDER="uploaded_images/"
