@@ -1,0 +1,17 @@
+Author: Vikrant
+Updated On: 30 May,2018
+
+Updates:
+Proper folder structure
+Uploaded image is accessed from server itself
+Output: Image + Text
+Created different modules to enhance clarity of code
+
+
+Limitation:
+Supported image formats: JPEG, PNG, and BMP.
+Image file size must be less than 4 MB.
+Image dimensions must be at least 40 x 40, at most 3200 x 3200.
+
+Note:
+passphrase: jdhruwaicrpoc
