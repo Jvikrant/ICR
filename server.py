@@ -15,11 +15,12 @@ UPLOAD_FOLDER="uploaded_images/"
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER']=UPLOAD_FOLDER
 
+@app.route('/')
 @app.route('/upload')
 def upload_file():
    return render_template('index.html')
 
-@app.route('/', methods = ['GET', 'POST'])
+
 @app.route('/uploader', methods = ['GET', 'POST'])
 def upload_files():
 	if request.method == 'POST':
